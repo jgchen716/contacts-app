@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEBA0AED25E4B3880017C5E4 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBA0AEC25E4B3880017C5E4 /* Contact.swift */; };
 		EED9DF5D25E4419300E2C16E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED9DF5C25E4419300E2C16E /* AppDelegate.swift */; };
 		EED9DF5F25E4419300E2C16E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED9DF5E25E4419300E2C16E /* SceneDelegate.swift */; };
-		EED9DF6125E4419300E2C16E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED9DF6025E4419300E2C16E /* ViewController.swift */; };
 		EED9DF6425E4419300E2C16E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED9DF6225E4419300E2C16E /* Main.storyboard */; };
 		EED9DF6625E4419400E2C16E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED9DF6525E4419400E2C16E /* Assets.xcassets */; };
 		EED9DF6925E4419400E2C16E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED9DF6725E4419400E2C16E /* LaunchScreen.storyboard */; };
 		EED9DF7425E4419500E2C16E /* app4_Jonathan_ChenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED9DF7325E4419500E2C16E /* app4_Jonathan_ChenTests.swift */; };
 		EED9DF7F25E4419500E2C16E /* app4_Jonathan_ChenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED9DF7E25E4419500E2C16E /* app4_Jonathan_ChenUITests.swift */; };
+		EED9DF9025E4428C00E2C16E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED9DF8F25E4428C00E2C16E /* DetailViewController.swift */; };
+		EED9DF9525E4429D00E2C16E /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED9DF9425E4429D00E2C16E /* AddContactViewController.swift */; };
+		EED9DF9A25E442AA00E2C16E /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED9DF9925E442AA00E2C16E /* ContactsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EEBA0AEC25E4B3880017C5E4 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		EED9DF5925E4419300E2C16E /* app4-Jonathan-Chen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app4-Jonathan-Chen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED9DF5C25E4419300E2C16E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED9DF5E25E4419300E2C16E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EED9DF6025E4419300E2C16E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EED9DF6325E4419300E2C16E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EED9DF6525E4419400E2C16E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED9DF6825E4419400E2C16E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		EED9DF7A25E4419500E2C16E /* app4-Jonathan-ChenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app4-Jonathan-ChenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED9DF7E25E4419500E2C16E /* app4_Jonathan_ChenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app4_Jonathan_ChenUITests.swift; sourceTree = "<group>"; };
 		EED9DF8025E4419500E2C16E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED9DF8F25E4428C00E2C16E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EED9DF9425E4429D00E2C16E /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		EED9DF9925E442AA00E2C16E /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,14 @@
 			children = (
 				EED9DF5C25E4419300E2C16E /* AppDelegate.swift */,
 				EED9DF5E25E4419300E2C16E /* SceneDelegate.swift */,
-				EED9DF6025E4419300E2C16E /* ViewController.swift */,
 				EED9DF6225E4419300E2C16E /* Main.storyboard */,
 				EED9DF6525E4419400E2C16E /* Assets.xcassets */,
 				EED9DF6725E4419400E2C16E /* LaunchScreen.storyboard */,
 				EED9DF6A25E4419400E2C16E /* Info.plist */,
+				EED9DF8F25E4428C00E2C16E /* DetailViewController.swift */,
+				EED9DF9425E4429D00E2C16E /* AddContactViewController.swift */,
+				EED9DF9925E442AA00E2C16E /* ContactsTableViewController.swift */,
+				EEBA0AEC25E4B3880017C5E4 /* Contact.swift */,
 			);
 			path = "app4-Jonathan-Chen";
 			sourceTree = "<group>";
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EED9DF6125E4419300E2C16E /* ViewController.swift in Sources */,
+				EEBA0AED25E4B3880017C5E4 /* Contact.swift in Sources */,
+				EED9DF9525E4429D00E2C16E /* AddContactViewController.swift in Sources */,
+				EED9DF9A25E442AA00E2C16E /* ContactsTableViewController.swift in Sources */,
 				EED9DF5D25E4419300E2C16E /* AppDelegate.swift in Sources */,
 				EED9DF5F25E4419300E2C16E /* SceneDelegate.swift in Sources */,
+				EED9DF9025E4428C00E2C16E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
